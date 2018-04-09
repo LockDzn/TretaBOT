@@ -5,7 +5,7 @@ const prefix = preferencias.prefix;
 const fs = require('fs');
 var comandos = new Discord.Collection();
 
-client.login("NDEwMTM4ODQ0MDg5MDI0NTE1.Da04kw.XQpWEsTm0Ss0CPNrT4GIvdlBKfM");
+client.login(process.env.BOT_TOKEN);
 
 client.on('ready', () =>{
 
